@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{0bb4a783-f418-4fa8-a909-d4819f204468}">
+		<property name="assetPath">
+			<value>Mono/sfx_warningSound2.1.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>1.5531972789115647</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{f57a419b-ac07-4b61-8a7c-3d8edcd0243d}</destination>
+		</relationship>
+	</object>
+</objects>

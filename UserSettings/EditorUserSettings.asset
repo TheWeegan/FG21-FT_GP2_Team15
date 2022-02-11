@@ -6,51 +6,12 @@ EditorUserSettings:
   serializedVersion: 4
   m_ConfigSettings:
     RecentlyUsedScenePath-0:
-      value: 22424703114646680e0b0227036c7b1505030a3f2f3c2f32212c3231e8e5372cd1e433e7e2742a323016f6
-      flags: 0
-    RecentlyUsedScenePath-1:
-      value: 22424703114646680e0b0227036c7c1f060e0c1e293b327e38271427fb
-      flags: 0
-    RecentlyUsedScenePath-2:
-      value: 22424703114646680e0b0227036c71151a1b016a7d66333e243d04
-      flags: 0
-    RecentlyUsedScenePath-3:
-      value: 22424703114646680e0b0227036c51353a3b216a7e66333e243d04
-      flags: 0
-    RecentlyUsedScenePath-4:
-      value: 22424703114646680e0b0227036c6f1f18030d39623d28393930
-      flags: 0
-    RecentlyUsedScenePath-5:
-      value: 22424703114646680e0b0227036c6c111b07142f1f2b233e2867083debf42d
-      flags: 0
-    RecentlyUsedScenePath-6:
-      value: 22424703114646680e0b0227036c72111f19352f223d68252320092a
-      flags: 0
-    RecentlyUsedScenePath-7:
-      value: 22424703114646680e0b0227036c71151a1b016439262f2434
-      flags: 0
-    RecentlyUsedScenePath-8:
-      value: 22424703114646680e0b0227036c721f0012152f223c12353e3d2e30e7ee3176f7e93ffdfe
-      flags: 0
-    RecentlyUsedScenePath-9:
       value: 22424703114646680e0b0227036c72111f1958192f2d2835633c133af6f9
-      flags: 0
-    vcPerforcePassword:
-      value: 30505d470a475b0a
-      flags: 1
-    vcPerforceServer:
-      value: 52011a54551b58155b545d744675
-      flags: 0
-    vcPerforceUsername:
-      value: 0e50460d1046474c04051f36022c52
-      flags: 0
-    vcPerforceWorkspace:
-      value: 0e50460d1046474c04051f36022c522f3b2431670b1e716260712f17afb0666fccc209b8b46b69
       flags: 0
     vcSharedLogLevel:
       value: 0d5e400f0650
       flags: 0
-  m_VCAutomaticAdd: 0
+  m_VCAutomaticAdd: 1
   m_VCDebugCom: 0
   m_VCDebugCmd: 0
   m_VCDebugOut: 0

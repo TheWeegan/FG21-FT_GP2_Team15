@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{33b44db6-dfa1-488a-9ad8-5676361356c9}">
+		<property name="assetPath">
+			<value>Music/Sax Licks/sax_takt4B.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>2.5</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{f57a419b-ac07-4b61-8a7c-3d8edcd0243d}</destination>
+		</relationship>
+	</object>
+</objects>

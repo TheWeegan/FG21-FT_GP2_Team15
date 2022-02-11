@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerReturn" id="{afc1e51f-27ff-4872-915b-395e9e6d60f9}">
+		<property name="volume">
+			<value>-80</value>
+		</property>
+		<property name="overridingInputFormat">
+			<value>2</value>
+		</property>
+		<property name="name">
+			<value>Reverb</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{7d8a4efc-276f-4957-a044-b5b55004e3eb}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{654a5e1b-a86e-4f8f-913b-e33e53834a7b}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{f0fb823d-d70d-477e-a9f0-91f94549baab}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{7d8a4efc-276f-4957-a044-b5b55004e3eb}">
+		<relationship name="effects">
+			<destination>{2afed5b9-a5d2-479e-8b4f-0d424cdb4fc1}</destination>
+			<destination>{1106b475-9a69-4709-869e-14f9bea89298}</destination>
+			<destination>{97a39448-b440-46d4-8cf4-bfe121bdef43}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{654a5e1b-a86e-4f8f-913b-e33e53834a7b}" />
+	<object class="MultibandEqEffect" id="{2afed5b9-a5d2-479e-8b4f-0d424cdb4fc1}">
+		<property name="filterTypeB">
+			<value>6</value>
+		</property>
+		<property name="frequencyA">
+			<value>3627.26147</value>
+		</property>
+		<property name="frequencyB">
+			<value>66.5159454</value>
+		</property>
+		<property name="qualityA">
+			<value>0.393034458</value>
+		</property>
+		<property name="qualityB">
+			<value>0.141862065</value>
+		</property>
+		<property name="gainB">
+			<value>-30</value>
+		</property>
+	</object>
+	<object class="ConvolutionReverbEffect" id="{1106b475-9a69-4709-869e-14f9bea89298}">
+		<property name="endFrame">
+			<value>52689</value>
+		</property>
+		<property name="wetLevel">
+			<value>-30</value>
+		</property>
+		<relationship name="referenceableData">
+			<destination>{0a406764-922d-432e-bd31-c4e5e36a2a76}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusFader" id="{97a39448-b440-46d4-8cf4-bfe121bdef43}" />
+</objects>

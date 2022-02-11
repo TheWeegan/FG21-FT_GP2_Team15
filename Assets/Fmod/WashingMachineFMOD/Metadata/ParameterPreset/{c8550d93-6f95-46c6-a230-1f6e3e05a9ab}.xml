@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{c8550d93-6f95-46c6-a230-1f6e3e05a9ab}">
+		<property name="name">
+			<value>Chaos</value>
+		</property>
+		<relationship name="folder">
+			<destination>{1c28baaa-4a73-4e4f-9bfa-f6bd897ded7e}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{3df790e5-8b30-46e2-aa7a-200bdeaf77f4}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{3df790e5-8b30-46e2-aa7a-200bdeaf77f4}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Value A</value>
+			<value>Value B</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

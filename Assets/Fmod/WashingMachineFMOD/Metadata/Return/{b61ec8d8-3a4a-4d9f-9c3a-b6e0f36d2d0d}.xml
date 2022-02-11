@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerReturn" id="{b61ec8d8-3a4a-4d9f-9c3a-b6e0f36d2d0d}">
+		<property name="overridingInputFormat">
+			<value>2</value>
+		</property>
+		<property name="name">
+			<value>RoomVerbMono</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{a4a21eb3-8baf-434f-a61d-69327117e5d3}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{e8716665-ceec-4494-bfce-fc796b71fc21}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{f0fb823d-d70d-477e-a9f0-91f94549baab}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{a4a21eb3-8baf-434f-a61d-69327117e5d3}">
+		<relationship name="effects">
+			<destination>{cb4deff0-3510-4b7e-9860-5a362c605675}</destination>
+			<destination>{54cd2df1-deb2-4990-813a-9fe7bbfa4381}</destination>
+			<destination>{344e9261-84d8-48ba-bd33-0dc0dfc3bc08}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{e8716665-ceec-4494-bfce-fc796b71fc21}" />
+	<object class="MultibandEqEffect" id="{cb4deff0-3510-4b7e-9860-5a362c605675}">
+		<property name="filterTypeB">
+			<value>6</value>
+		</property>
+		<property name="frequencyA">
+			<value>4400</value>
+		</property>
+		<property name="frequencyB">
+			<value>76</value>
+		</property>
+		<property name="qualityA">
+			<value>0.560000002</value>
+		</property>
+		<property name="qualityB">
+			<value>0.340000004</value>
+		</property>
+		<property name="gainB">
+			<value>-30</value>
+		</property>
+	</object>
+	<object class="ConvolutionReverbEffect" id="{54cd2df1-deb2-4990-813a-9fe7bbfa4381}">
+		<property name="endFrame">
+			<value>52689</value>
+		</property>
+		<property name="wetLevel">
+			<value>-30</value>
+		</property>
+		<relationship name="referenceableData">
+			<destination>{0a406764-922d-432e-bd31-c4e5e36a2a76}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusFader" id="{344e9261-84d8-48ba-bd33-0dc0dfc3bc08}" />
+</objects>

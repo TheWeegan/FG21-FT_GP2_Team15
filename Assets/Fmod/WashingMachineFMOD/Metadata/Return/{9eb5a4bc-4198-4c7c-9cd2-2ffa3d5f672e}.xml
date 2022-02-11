@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerReturn" id="{9eb5a4bc-4198-4c7c-9cd2-2ffa3d5f672e}">
+		<property name="volume">
+			<value>-80</value>
+		</property>
+		<property name="name">
+			<value>SaxSideChain</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{598613f3-bf35-4e38-b075-7f20bb184e36}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{a4ecc3e6-fa56-4f42-9bef-8180dc416433}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{f0fb823d-d70d-477e-a9f0-91f94549baab}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{598613f3-bf35-4e38-b075-7f20bb184e36}">
+		<relationship name="effects">
+			<destination>{b25e6706-ec34-4bd4-8075-9f0336336aa3}</destination>
+			<destination>{1286a7ae-f077-4fa5-8a52-e73c0cbd154c}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{a4ecc3e6-fa56-4f42-9bef-8180dc416433}" />
+	<object class="Sidechain" id="{b25e6706-ec34-4bd4-8075-9f0336336aa3}">
+		<property name="level">
+			<value>10</value>
+		</property>
+	</object>
+	<object class="MixerBusFader" id="{1286a7ae-f077-4fa5-8a52-e73c0cbd154c}" />
+</objects>

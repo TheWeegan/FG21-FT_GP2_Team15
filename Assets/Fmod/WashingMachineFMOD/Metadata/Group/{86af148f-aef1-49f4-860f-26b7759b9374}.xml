@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{86af148f-aef1-49f4-860f-26b7759b9374}">
+		<property name="name">
+			<value>DuckedBySax</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{a2e57c6b-e896-4018-b1c0-ffc360ad7e40}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{c064b5ab-1bc4-4ca1-9ab0-91c29949c2a8}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{c9a471fb-d83e-42e3-8202-a3d3a7fa7dea}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{a2e57c6b-e896-4018-b1c0-ffc360ad7e40}">
+		<relationship name="effects">
+			<destination>{530e12c0-deec-4697-ab81-22cdd7ccba17}</destination>
+			<destination>{5e7e6620-91bc-4af5-9314-ce1c19bcbcb2}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{c064b5ab-1bc4-4ca1-9ab0-91c29949c2a8}" />
+	<object class="MixerBusFader" id="{530e12c0-deec-4697-ab81-22cdd7ccba17}" />
+	<object class="MixerSend" id="{5e7e6620-91bc-4af5-9314-ce1c19bcbcb2}">
+		<property name="level">
+			<value>1.5</value>
+		</property>
+		<property name="inputFormat">
+			<value>0</value>
+		</property>
+		<relationship name="mixerReturn">
+			<destination>{b61ec8d8-3a4a-4d9f-9c3a-b6e0f36d2d0d}</destination>
+		</relationship>
+	</object>
+</objects>

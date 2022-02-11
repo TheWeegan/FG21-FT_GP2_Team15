@@ -54,6 +54,33 @@ MonoBehaviour:
   MinDistance: 1.4
   MaxDistance: 60
   Length: 0
+--- !u!114 &-5519567373062702240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/NotificationSound
+  m_EditorClassIdentifier: 
+  Path: event:/NotificationSound
+  Guid:
+    Data1: -993410018
+    Data2: 1208647598
+    Data3: 319966614
+    Data4: 1048938701
+  Banks:
+  - {fileID: 6382581894209948814}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-4503126312489986009
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -205,6 +232,32 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 60
   Length: 0
+--- !u!114 &-2699261646694637086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music/IsWinning
+  m_EditorClassIdentifier: 
+  Name: IsWinning
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1626440522
+    data2: 4237893008
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Value A
+  - Value B
+  Exists: 1
 --- !u!114 &-2073216738725686741
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -231,6 +284,33 @@ MonoBehaviour:
   - Value A
   - Value B
   Exists: 1
+--- !u!114 &-1155250150118916245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/WinningSound
+  m_EditorClassIdentifier: 
+  Path: event:/WinningSound
+  Guid:
+    Data1: 1930250079
+    Data2: 1172658971
+    Data3: -1537492046
+    Data4: -593280465
+  Banks:
+  - {fileID: 6382581894209948814}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -260,6 +340,8 @@ MonoBehaviour:
   - {fileID: 5817153640108277448}
   - {fileID: 3557919290666503973}
   - {fileID: 451627181918387530}
+  - {fileID: -5519567373062702240}
+  - {fileID: -1155250150118916245}
   EditorParameters:
   - {fileID: 1421749122892479268}
   - {fileID: 7106293999726447209}
@@ -269,7 +351,7 @@ MonoBehaviour:
   - {fileID: 6382581894209948814}
   StringsBanks:
   - {fileID: 1503952612965447808}
-  cacheTime: 637800340494129022
+  cacheTime: 637802058264703019
   cacheVersion: 10
 --- !u!114 &451627181918387530
 MonoBehaviour:
@@ -365,10 +447,10 @@ MonoBehaviour:
   Path: Assets/Fmod/WashingMachineFMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637800340494129022
+  lastModified: 637802058264703019
   FileSizes:
   - Name: Desktop
-    Value: 2282
+    Value: 2396
   Exists: 1
 --- !u!114 &1752005629983122792
 MonoBehaviour:
@@ -740,11 +822,11 @@ MonoBehaviour:
   - {fileID: -3532844829607690478}
   - {fileID: 8854247278951312898}
   - {fileID: -2073216738725686741}
-  - {fileID: 9170745970738504182}
   - {fileID: 3273582993439740434}
+  - {fileID: -2699261646694637086}
   MinDistance: 1
   MaxDistance: 20
-  Length: 102599
+  Length: 51599
 --- !u!114 &6382581894209948814
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -760,10 +842,10 @@ MonoBehaviour:
   Path: Assets/Fmod/WashingMachineFMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637800340494009345
+  lastModified: 637802058264663306
   FileSizes:
   - Name: Desktop
-    Value: 12957184
+    Value: 12009024
   Exists: 1
 --- !u!114 &6961524899667251351
 MonoBehaviour:
@@ -911,30 +993,6 @@ MonoBehaviour:
   ID:
     data1: 3786047230
     data2: 2326621863
-  Type: 0
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
---- !u!114 &9170745970738504182
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Music/B-Timer
-  m_EditorClassIdentifier: 
-  Name: B-Timer
-  StudioPath: 
-  Min: 0
-  Max: 100
-  Default: 0
-  ID:
-    data1: 2253841119
-    data2: 3347583817
   Type: 0
   IsGlobal: 0
   Labels: []
